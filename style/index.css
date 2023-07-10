@@ -81,6 +81,42 @@ body{
     text-align: center;
 } */
 
+/* about section style */
+
+.about-title{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.about-section{
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    padding: 40px 80px;
+}
+.about-right-part-title{
+    font-size: 30px;
+}
+.about-right-part-description{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.about-left-part-img{
+    width: 400px;
+    border: 0;
+    border-radius: 5px;
+}
+.about-btn{
+    padding: 15px 30px;
+    border-radius: 40px;
+    background: #121111;
+    border: 0px;
+    color: white;
+}
 
 /* hot deal section */
 .banner-span{
@@ -209,9 +245,9 @@ margin-bottom: 80px;
 .footer-section{
     text-align: center;
     background: black;
-    height: 200px;
+    height: 100px;
     color: white;
-    padding: 150px 0px
+    padding: 100px 0px
 }
 .footer-title{
     font-size: 40px;
