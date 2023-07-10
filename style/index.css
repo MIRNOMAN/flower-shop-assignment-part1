@@ -124,6 +124,35 @@ body{
     text-align: center;
     margin-left: 250px
 }
-.hot-deal-pic{
+
+/* instagram section */
+.instagram-section{
+    text-align: center;
+    margin-top: 80px;
+}
+.instagram-title{
+    color: #272727;
+    font-size: 40px;
+}
+.instagram-description{
+color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 18px;
+margin-top: 15px;
+margin-bottom: 80px;
+}
+
+/* picture section */
+
+.picture-section-profile{
+    width: 250px;
+    border: 1px solid white;
+    border: 0;
+    
+}
+.picture-section{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 100px 70px 100px;
     
 }
