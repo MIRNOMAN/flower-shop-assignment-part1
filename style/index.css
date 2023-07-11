@@ -57,7 +57,7 @@ body{
 .feature-flower{
     /* margin-top: 70px;
     margin-bottom: 70px; */
-    margin: 80px;
+    margin: 80px 80px 20px 80px;
     display: flex;
     justify-content:space-evenly;
   
@@ -77,15 +77,29 @@ body{
     padding: 50px 50px 0px 50px;
 
 }
-/* .feature-flower-text{
-    text-align: center;
-} */
+
+/* flower link style */
+
+.text-format{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 90px 70px 90px;
+}
+.text-format-link{
+    color: #272727;
+    font-size: 18px;
+    line-height: 25px;
+    text-decoration-line: underline;
+    cursor: pointer;
+    font-weight: bold
+}
+
 
 /* about section style */
 
 .about-title{
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     font-size: 40px;
     font-weight: bold;
 }
@@ -263,4 +277,8 @@ margin-bottom: 80px;
 .footer-end{
     color: rgba(255, 255, 255, 0.40);
     font-size: 16px;
+}
+
+.tag{
+    margin-bottom: 20px;
 }
